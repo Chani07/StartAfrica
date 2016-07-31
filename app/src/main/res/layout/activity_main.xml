@@ -1,0 +1,2132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.startafrica.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp">
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/Utilities"
+                android:scaleType="fitCenter"
+                android:src="@drawable/seebox" />
+
+            <TextView
+                android:id="@+id/category1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image1"
+                android:layout_centerInParent="true"
+                android:layout_margin="8dp"
+                android:background="@color/Technology"
+                android:padding="4dp"
+                android:text="Technology"
+                android:textColor="@android:color/white" />
+
+            <View
+                android:id="@+id/divider1"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/category1"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/company1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider1"
+                android:layout_centerInParent="true"
+                android:padding="8dp"
+                android:text="SeeBox"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/description1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/company1"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="Problem solving ability cannot be taught from a book or by passively watching"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/read_more1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description1"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:autoLink="web"
+                android:onClick="readMore1"
+                android:text="Read more"
+                android:textColor="@color/ReadMore" />
+
+            <View
+                android:id="@+id/bottom_divider1"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/read_more1"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/country1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/bottom_divider1"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="8dp"
+                android:text="South Africa" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp">
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/Technology"
+                android:scaleType="fitCenter"
+                android:src="@drawable/boomers" />
+
+            <TextView
+                android:id="@+id/category2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image2"
+                android:layout_centerInParent="true"
+                android:layout_margin="8dp"
+                android:background="@color/Industrials"
+                android:padding="4dp"
+                android:text="Industrials"
+                android:textColor="@android:color/white" />
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/category2"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/company2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider2"
+                android:layout_centerInParent="true"
+                android:padding="8dp"
+                android:text="Boomers"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/description2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/company2"
+                android:layout_centerInParent="true"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="Booomers International produces and markets bamboo and accessories"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/read_more2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description2"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:autoLink="web"
+                android:onClick="readMore2"
+                android:text="Read more"
+                android:textColor="@color/ReadMore" />
+
+            <View
+                android:id="@+id/bottom_divider2"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/read_more2"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/country2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/bottom_divider2"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="8dp"
+                android:text="Ghana" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp">
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#CDDC39"
+                android:scaleType="fitCenter"
+                android:src="@drawable/idropwater" />
+
+            <TextView
+                android:id="@+id/category3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image3"
+                android:layout_centerInParent="true"
+                android:layout_margin="8dp"
+                android:background="@color/ConsumerGoods"
+                android:padding="4dp"
+                android:text="Consumer Goods"
+                android:textColor="@android:color/white" />
+
+            <View
+                android:id="@+id/divider3"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/category3"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/company3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider3"
+                android:layout_centerInParent="true"
+                android:padding="8dp"
+                android:text="I-Drop Water"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/description3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/company3"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="I-Drop Water has developed a new way of selling drinking water in retail"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/read_more3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description3"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:autoLink="web"
+                android:onClick="readMore3"
+                android:text="Read more"
+                android:textColor="@color/ReadMore" />
+
+            <View
+                android:id="@+id/bottom_divider3"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/read_more3"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/country3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/bottom_divider3"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="8dp"
+                android:text="South Africa" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp">
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/Utilities"
+                android:scaleType="fitCenter"
+                android:src="@drawable/vulamobile" />
+
+            <TextView
+                android:id="@+id/category4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image4"
+                android:layout_centerInParent="true"
+                android:layout_margin="8dp"
+                android:background="@color/Technology"
+                android:padding="4dp"
+                android:text="Technology"
+                android:textColor="@android:color/white" />
+
+            <View
+                android:id="@+id/divider4"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/category4"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/company4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider4"
+                android:layout_centerInParent="true"
+                android:padding="8dp"
+                android:text="Vula Mobile"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/description4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/company4"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="The aim of the app is to give health workers – particularly those in remote rural areas – a tool that helps to get patients quick and efficient specialist care"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/read_more4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description4"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:autoLink="web"
+                android:onClick="readMore4"
+                android:text="Read more"
+                android:textColor="@color/ReadMore" />
+
+            <View
+                android:id="@+id/bottom_divider4"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/read_more4"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/country4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/bottom_divider4"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="8dp"
+                android:text="South Africa" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp">
+
+            <ImageView
+                android:id="@+id/image5"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#CDDC39"
+                android:scaleType="fitCenter"
+                android:src="@drawable/agricycle" />
+
+            <TextView
+                android:id="@+id/category5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image5"
+                android:layout_centerInParent="true"
+                android:layout_margin="8dp"
+                android:background="@color/ConsumerGoods"
+                android:padding="4dp"
+                android:text="Consumer Goods"
+                android:textColor="@android:color/white" />
+
+            <View
+                android:id="@+id/divider5"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/category5"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/company5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider5"
+                android:layout_centerInParent="true"
+                android:padding="8dp"
+                android:text="Agricycle Namibia"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/description5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/company5"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="The company strives to make a difference in Namibia’s development through the industry of Nutrient Recycling"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/read_more5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description5"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:autoLink="web"
+                android:onClick="readMore5"
+                android:text="Read more"
+                android:textColor="@color/ReadMore" />
+
+            <View
+                android:id="@+id/bottom_divider5"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/read_more5"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/country5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/bottom_divider5"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="8dp"
+                android:text="Namibia" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp">
+
+            <ImageView
+                android:id="@+id/image6"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/Technology"
+                android:scaleType="fitCenter"
+                android:src="@drawable/solarkobo" />
+
+            <TextView
+                android:id="@+id/category6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image6"
+                android:layout_centerInParent="true"
+                android:layout_margin="8dp"
+                android:background="@color/Utilities"
+                android:padding="4dp"
+                android:text="Utilities"
+                android:textColor="@android:color/white" />
+
+            <View
+                android:id="@+id/divider6"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/category6"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/company6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider6"
+                android:layout_centerInParent="true"
+                android:padding="8dp"
+                android:text="SolarKobo"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/description6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/company6"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="SolarKobo is a renewable energy company that provides affordable and reliable renewable energy solutions for small businesses and households"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/read_more6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description6"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:autoLink="web"
+                android:onClick="readMore6"
+                android:text="Read more"
+                android:textColor="@color/ReadMore" />
+
+            <View
+                android:id="@+id/bottom_divider6"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/read_more6"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/country6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/bottom_divider6"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="8dp"
+                android:text="Nigeria" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp">
+
+            <ImageView
+                android:id="@+id/image7"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/Technology"
+                android:scaleType="fitCenter"
+                android:src="@drawable/max" />
+
+            <TextView
+                android:id="@+id/category7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image7"
+                android:layout_centerInParent="true"
+                android:layout_margin="8dp"
+                android:background="@color/Industrials"
+                android:padding="4dp"
+                android:text="Industrials"
+                android:textColor="@android:color/white" />
+
+            <View
+                android:id="@+id/divider7"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/category7"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/company7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider7"
+                android:layout_centerInParent="true"
+                android:padding="8dp"
+                android:text="Max"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/description7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/company7"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:text="Express delivery for Africa"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/read_more7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description7"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:autoLink="web"
+                android:onClick="readMore7"
+                android:text="Read more"
+                android:textColor="@color/ReadMore" />
+
+            <View
+                android:id="@+id/bottom_divider7"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/read_more7"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/country7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/bottom_divider7"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="8dp"
+                android:text="Nigeria" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp">
+
+            <ImageView
+                android:id="@+id/image8"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/HealthCare"
+                android:scaleType="fitCenter"
+                android:src="@drawable/kytabu" />
+
+            <TextView
+                android:id="@+id/category8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image8"
+                android:layout_centerInParent="true"
+                android:layout_margin="8dp"
+                android:background="@color/ConsumerServices"
+                android:padding="4dp"
+                android:text="Consumer Services"
+                android:textColor="@android:color/white" />
+
+            <View
+                android:id="@+id/divider8"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/category8"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/company8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider8"
+                android:layout_centerInParent="true"
+                android:padding="8dp"
+                android:text="Kytabu"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/description8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/company8"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="Digital content learning platform that students can use to lease textbooks"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/read_more8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description8"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:autoLink="web"
+                android:onClick="readMore8"
+                android:text="Read more"
+                android:textColor="@color/ReadMore" />
+
+            <View
+                android:id="@+id/bottom_divider8"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/read_more8"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/country8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/bottom_divider8"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="8dp"
+                android:text="Kenya" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp">
+
+            <ImageView
+                android:id="@+id/image9"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/HealthCare"
+                android:scaleType="fitCenter"
+                android:src="@drawable/letiarts" />
+
+            <TextView
+                android:id="@+id/category9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image9"
+                android:layout_centerInParent="true"
+                android:layout_margin="8dp"
+                android:background="@color/ConsumerServices"
+                android:padding="4dp"
+                android:text="Consumer Services"
+                android:textColor="@android:color/white" />
+
+            <View
+                android:id="@+id/divider9"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/category9"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/company9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider9"
+                android:layout_centerInParent="true"
+                android:padding="8dp"
+                android:text="Leti Arts"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/description9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/company9"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:text="Interactive media studio"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/read_more9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description9"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:autoLink="web"
+                android:onClick="readMore9"
+                android:text="Read more"
+                android:textColor="@color/ReadMore" />
+
+            <View
+                android:id="@+id/bottom_divider9"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/read_more9"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/country9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/bottom_divider9"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="8dp"
+                android:text="Ghana" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp">
+
+            <ImageView
+                android:id="@+id/image10"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/HealthCare"
+                android:scaleType="fitCenter"
+                android:src="@drawable/techrepublic" />
+
+            <TextView
+                android:id="@+id/category10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image10"
+                android:layout_centerInParent="true"
+                android:layout_margin="8dp"
+                android:background="@color/ConsumerServices"
+                android:padding="4dp"
+                android:text="Consumer Services"
+                android:textColor="@android:color/white" />
+
+            <View
+                android:id="@+id/divider10"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/category10"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/company10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider10"
+                android:layout_centerInParent="true"
+                android:padding="8dp"
+                android:text="Tech Republic Africa"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/description10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/company10"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:text="Kenya’s Biggest Teens Coding Camp"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/read_more10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description10"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:autoLink="web"
+                android:onClick="readMore10"
+                android:text="Read more"
+                android:textColor="@color/ReadMore" />
+
+            <View
+                android:id="@+id/bottom_divider10"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/read_more10"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/country10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/bottom_divider10"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="8dp"
+                android:text="Kenya" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp">
+
+            <ImageView
+                android:id="@+id/image11"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/Technology"
+                android:scaleType="fitCenter"
+                android:src="@drawable/settic" />
+
+            <TextView
+                android:id="@+id/category11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image11"
+                android:layout_centerInParent="true"
+                android:layout_margin="8dp"
+                android:background="@color/Industrials"
+                android:padding="4dp"
+                android:text="Industrials"
+                android:textColor="@android:color/white" />
+
+            <View
+                android:id="@+id/divider11"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/category11"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/company11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider11"
+                android:layout_centerInParent="true"
+                android:padding="8dp"
+                android:text="SetTIC"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/description11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/company11"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="SetTIC vous fournit une solution respectueuse de l'environnement pour gérer la fin de vie de vos équipements électriques et électroniques"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/read_more11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description11"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:autoLink="web"
+                android:onClick="readMore11"
+                android:text="Read more"
+                android:textColor="@color/ReadMore" />
+
+            <View
+                android:id="@+id/bottom_divider11"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/read_more11"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/country11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/bottom_divider11"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="8dp"
+                android:text="Senegal" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp">
+
+            <ImageView
+                android:id="@+id/image12"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/ConsumerServices"
+                android:scaleType="fitCenter"
+                android:src="@drawable/jokko" />
+
+            <TextView
+                android:id="@+id/category12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image12"
+                android:layout_centerInParent="true"
+                android:layout_margin="8dp"
+                android:background="@color/HealthCare"
+                android:padding="4dp"
+                android:text="Health Care"
+                android:textColor="@android:color/white" />
+
+            <View
+                android:id="@+id/divider12"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/category12"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/company12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider12"
+                android:layout_centerInParent="true"
+                android:padding="8dp"
+                android:text="Jokko$anté"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/description12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/company12"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:text="La pharmacie communautaire virtuelle"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/read_more12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description12"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:autoLink="web"
+                android:onClick="readMore12"
+                android:text="Read more"
+                android:textColor="@color/ReadMore" />
+
+            <View
+                android:id="@+id/bottom_divider12"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/read_more12"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/country12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/bottom_divider12"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="8dp"
+                android:text="Senegal" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp">
+
+            <ImageView
+                android:id="@+id/image13"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/HealthCare"
+                android:scaleType="fitCenter"
+                android:src="@drawable/greenwash" />
+
+            <TextView
+                android:id="@+id/category13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image13"
+                android:layout_centerInParent="true"
+                android:layout_margin="8dp"
+                android:background="@color/ConsumerServices"
+                android:padding="4dp"
+                android:text="Consumer Services"
+                android:textColor="@android:color/white" />
+
+            <View
+                android:id="@+id/divider13"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/category13"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/company13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider13"
+                android:layout_centerInParent="true"
+                android:padding="8dp"
+                android:text="Greenwash"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/description13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/company13"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:text="Greenwash est un service eco-friendly"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/read_more13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description13"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:autoLink="web"
+                android:onClick="readMore13"
+                android:text="Read more"
+                android:textColor="@color/ReadMore" />
+
+            <View
+                android:id="@+id/bottom_divider13"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/read_more13"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/country13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/bottom_divider13"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="8dp"
+                android:text="Senegal" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp">
+
+            <ImageView
+                android:id="@+id/image14"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/Utilities"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ologa" />
+
+            <TextView
+                android:id="@+id/category14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image14"
+                android:layout_centerInParent="true"
+                android:layout_margin="8dp"
+                android:background="@color/Technology"
+                android:padding="4dp"
+                android:text="Technology"
+                android:textColor="@android:color/white" />
+
+            <View
+                android:id="@+id/divider14"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/category14"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/company14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider14"
+                android:layout_centerInParent="true"
+                android:padding="8dp"
+                android:text="Ologa"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/description14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/company14"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="Technological solutions for rural development"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/read_more14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description14"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:autoLink="web"
+                android:onClick="readMore14"
+                android:text="Read more"
+                android:textColor="@color/ReadMore" />
+
+            <View
+                android:id="@+id/bottom_divider14"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/read_more14"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/country14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/bottom_divider14"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="8dp"
+                android:text="Mozambique" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp">
+
+            <ImageView
+                android:id="@+id/image15"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/HealthCare"
+                android:scaleType="fitCenter"
+                android:src="@drawable/gomyway" />
+
+            <TextView
+                android:id="@+id/category15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image15"
+                android:layout_centerInParent="true"
+                android:layout_margin="8dp"
+                android:background="@color/ConsumerServices"
+                android:padding="4dp"
+                android:text="Consumer Services"
+                android:textColor="@android:color/white" />
+
+            <View
+                android:id="@+id/divider15"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/category15"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/company15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider15"
+                android:layout_centerInParent="true"
+                android:padding="8dp"
+                android:text="GoMyWay"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/description15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/company15"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="Connecting travelers with drivers who have spare seats to share"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/read_more15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description15"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:autoLink="web"
+                android:onClick="readMore15"
+                android:text="Read more"
+                android:textColor="@color/ReadMore" />
+
+            <View
+                android:id="@+id/bottom_divider15"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/read_more15"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/country15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/bottom_divider15"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="8dp"
+                android:text="Nigeria" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp">
+
+            <ImageView
+                android:id="@+id/image16"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/Utilities"
+                android:scaleType="fitCenter"
+                android:src="@drawable/mookh" />
+
+            <TextView
+                android:id="@+id/category16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image16"
+                android:layout_centerInParent="true"
+                android:layout_margin="8dp"
+                android:background="@color/Technology"
+                android:padding="4dp"
+                android:text="Technology"
+                android:textColor="@android:color/white" />
+
+            <View
+                android:id="@+id/divider16"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/category16"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/company16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider16"
+                android:layout_centerInParent="true"
+                android:padding="8dp"
+                android:text="mookh."
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/description16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/company16"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="mookh. allows you to sell products, do ticketing, sell digital content and collect donations"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/read_more16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description16"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:autoLink="web"
+                android:onClick="readMore16"
+                android:text="Read more"
+                android:textColor="@color/ReadMore" />
+
+            <View
+                android:id="@+id/bottom_divider16"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/read_more16"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/country16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/bottom_divider16"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="8dp"
+                android:text="Kenya" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp">
+
+            <ImageView
+                android:id="@+id/image17"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/HealthCare"
+                android:scaleType="fitCenter"
+                android:src="@drawable/pushcv" />
+
+            <TextView
+                android:id="@+id/category17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image17"
+                android:layout_centerInParent="true"
+                android:layout_margin="8dp"
+                android:background="@color/ConsumerServices"
+                android:padding="4dp"
+                android:text="Consumer Services"
+                android:textColor="@android:color/white" />
+
+            <View
+                android:id="@+id/divider17"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/category17"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/company17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider17"
+                android:layout_centerInParent="true"
+                android:padding="8dp"
+                android:text="PushCV"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/description17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/company17"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="PushCV is the largest pool of pre-screened candidates in Africa"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/read_more17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description17"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:autoLink="web"
+                android:onClick="readMore17"
+                android:text="Read more"
+                android:textColor="@color/ReadMore" />
+
+            <View
+                android:id="@+id/bottom_divider17"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/read_more17"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/country17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/bottom_divider17"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="8dp"
+                android:text="Nigeria" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp">
+
+            <ImageView
+                android:id="@+id/image18"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/Technology"
+                android:scaleType="fitCenter"
+                android:src="@drawable/wecyclers" />
+
+            <TextView
+                android:id="@+id/category18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image18"
+                android:layout_centerInParent="true"
+                android:layout_margin="8dp"
+                android:background="@color/Industrials"
+                android:padding="4dp"
+                android:text="Industrials"
+                android:textColor="@android:color/white" />
+
+            <View
+                android:id="@+id/divider18"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/category18"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/company18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider18"
+                android:layout_centerInParent="true"
+                android:padding="8dp"
+                android:text="wecyclers"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/description18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/company18"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="Wecyclers gives households a chance to capture value from their waste while providing a reliable supply of materials to the local recycling industry"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/read_more18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description18"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:autoLink="web"
+                android:onClick="readMore18"
+                android:text="Read more"
+                android:textColor="@color/ReadMore" />
+
+            <View
+                android:id="@+id/bottom_divider18"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/read_more18"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/country18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/bottom_divider18"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="8dp"
+                android:text="Nigeria" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp">
+
+            <ImageView
+                android:id="@+id/image19"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/Technology"
+                android:scaleType="fitCenter"
+                android:src="@drawable/aceafrica" />
+
+            <TextView
+                android:id="@+id/category19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image19"
+                android:layout_centerInParent="true"
+                android:layout_margin="8dp"
+                android:background="@color/Industrials"
+                android:padding="4dp"
+                android:text="Industrials"
+                android:textColor="@android:color/white" />
+
+            <View
+                android:id="@+id/divider19"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/category19"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/company19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider19"
+                android:layout_centerInParent="true"
+                android:padding="8dp"
+                android:text="ACE - Africa Courier Express"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/description19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/company19"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="ACE (Africa Courier Express) is Nigeria’s largest consumer oriented logistics company"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/read_more19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description19"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:autoLink="web"
+                android:onClick="readMore19"
+                android:text="Read more"
+                android:textColor="@color/ReadMore" />
+
+            <View
+                android:id="@+id/bottom_divider19"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/read_more19"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/country19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/bottom_divider19"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="8dp"
+                android:text="Nigeria" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp">
+
+            <ImageView
+                android:id="@+id/image20"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/ConsumerServices"
+                android:scaleType="fitCenter"
+                android:src="@drawable/hellodoc" />
+
+            <TextView
+                android:id="@+id/category20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image20"
+                android:layout_centerInParent="true"
+                android:layout_margin="8dp"
+                android:background="@color/HealthCare"
+                android:padding="4dp"
+                android:text="Health Care"
+                android:textColor="@android:color/white" />
+
+            <View
+                android:id="@+id/divider20"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/category20"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/company20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider20"
+                android:layout_centerInParent="true"
+                android:padding="8dp"
+                android:text="HelloDoc"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/description20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/company20"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="Hellodoc is a healthcare directory listing portal and health resource hub"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/read_more20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description20"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:autoLink="web"
+                android:onClick="readMore20"
+                android:text="Read more"
+                android:textColor="@color/ReadMore" />
+
+            <View
+                android:id="@+id/bottom_divider20"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/read_more20"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/country20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/bottom_divider20"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="8dp"
+                android:text="Nigeria" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp">
+
+            <ImageView
+                android:id="@+id/image21"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/ConsumerServices"
+                android:scaleType="fitCenter"
+                android:src="@drawable/flyingdoctors" />
+
+            <TextView
+                android:id="@+id/category21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image21"
+                android:layout_centerInParent="true"
+                android:layout_margin="8dp"
+                android:background="@color/HealthCare"
+                android:padding="4dp"
+                android:text="Health Care"
+                android:textColor="@android:color/white" />
+
+            <View
+                android:id="@+id/divider21"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/category21"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/company21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider21"
+                android:layout_centerInParent="true"
+                android:padding="8dp"
+                android:text="Flying Doctors Nigeria"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/description21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/company21"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:text="Medical Emergency Service"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/read_more21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description21"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:autoLink="web"
+                android:onClick="readMore21"
+                android:text="Read more"
+                android:textColor="@color/ReadMore" />
+
+            <View
+                android:id="@+id/bottom_divider21"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/read_more21"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/country21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/bottom_divider21"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="8dp"
+                android:text="Nigeria" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp">
+
+            <ImageView
+                android:id="@+id/image22"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#CDDC39"
+                android:scaleType="fitCenter"
+                android:src="@drawable/kilivr" />
+
+            <TextView
+                android:id="@+id/category22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image22"
+                android:layout_centerInParent="true"
+                android:layout_margin="8dp"
+                android:background="@color/ConsumerGoods"
+                android:padding="4dp"
+                android:text="Consumer Goods"
+                android:textColor="@android:color/white" />
+
+            <View
+                android:id="@+id/divider22"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/category22"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/company22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider22"
+                android:layout_centerInParent="true"
+                android:padding="8dp"
+                android:text="Kili VR"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/description22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/company22"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="Kili VR develops augmented and virtual reality media"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/read_more22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description22"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:autoLink="web"
+                android:onClick="readMore22"
+                android:text="Read more"
+                android:textColor="@color/ReadMore" />
+
+            <View
+                android:id="@+id/bottom_divider22"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/read_more22"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/country22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/bottom_divider22"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="8dp"
+                android:text="Ghana" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp">
+
+            <ImageView
+                android:id="@+id/image23"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/Technology"
+                android:scaleType="fitCenter"
+                android:src="@drawable/virtualbank" />
+
+            <TextView
+                android:id="@+id/category23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image23"
+                android:layout_centerInParent="true"
+                android:layout_margin="8dp"
+                android:background="@color/Financials"
+                android:padding="4dp"
+                android:text="Financials"
+                android:textColor="@android:color/white" />
+
+            <View
+                android:id="@+id/divider23"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/category23"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/company23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider23"
+                android:layout_centerInParent="true"
+                android:padding="8dp"
+                android:text="VirtualBank Africa (Pvt) Ltd"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/description23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/company23"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="VBA makes it possible for those who do not have bank accounts to make online payments"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/read_more23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description23"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:autoLink="web"
+                android:onClick="readMore23"
+                android:text="Read more"
+                android:textColor="@color/ReadMore" />
+
+            <View
+                android:id="@+id/bottom_divider23"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/read_more23"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/country23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/bottom_divider23"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="8dp"
+                android:text="Zimbabwe" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp">
+
+            <ImageView
+                android:id="@+id/image24"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/Utilities"
+                android:scaleType="fitCenter"
+                android:src="@drawable/smsgh" />
+
+            <TextView
+                android:id="@+id/category24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image24"
+                android:layout_centerInParent="true"
+                android:layout_margin="8dp"
+                android:background="@color/Telecommunications"
+                android:padding="4dp"
+                android:text="Telecommunications"
+                android:textColor="@android:color/white" />
+
+            <View
+                android:id="@+id/divider24"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/category24"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/company24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider24"
+                android:layout_centerInParent="true"
+                android:padding="8dp"
+                android:text="SMSGH"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/description24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/company24"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="SMSGH blends mobile communication with cloud technology to build useful applications"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/read_more24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description24"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:autoLink="web"
+                android:onClick="readMore24"
+                android:text="Read more"
+                android:textColor="@color/ReadMore" />
+
+            <View
+                android:id="@+id/bottom_divider24"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/read_more24"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/country24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/bottom_divider24"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="8dp"
+                android:text="Ghana" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

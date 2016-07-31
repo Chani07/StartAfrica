@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#92D735</color>
+    <color name="colorPrimaryDark">#333333</color>
+    <color name="colorAccent">#333333</color>
+    <color name="Technology">#f6BB42</color>
+    <color name="Industrials">#7F8C8D</color>
+    <color name="ConsumerGoods">#9b59b6</color>
+    <color name="Utilities">#3498db</color>
+    <color name="ConsumerServices">#3fc380</color>
+    <color name="HealthCare">#ef4836</color>
+    <color name="Financials">#385675</color>
+    <color name="Telecommunications">#d2527f</color>
+    <color name="ReadMore">#6D9D2B</color>
+</resources>
